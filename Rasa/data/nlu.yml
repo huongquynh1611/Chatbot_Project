@@ -1,0 +1,111 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hey
+    - Hello, what can I help you?
+    - Hi, nice to meet you!!!
+    - Hello there
+    - Good morning
+    - Good evening
+    - Hey there
+    - Hey dude
+    - Good afternoon
+
+- intent: goodbye
+  examples: |
+    - Good afternoon
+    - See you later
+    - Good night
+    - Bye
+    - Goodbye
+    - Have a nice day
+    - See you around
+    - Bye bye
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Indeed
+    - Of course
+    - That sounds good
+    - Correct
+
+- intent: deny
+  examples: |
+    - No
+    - Never
+    - I don't think so
+    - Don't like that
+    - No way
+    - Not really
+
+- intent: mood_great
+  examples: |
+    - Perfect
+    - Great
+    - Amazing
+    - Feeling like a king
+    - Wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - Super stoked
+    - Extremely good
+    - So so perfect
+    - So good
+    - So perfect
+
+- intent: mood_unhappy
+  examples: |
+    - My day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - I'm so sad
+    - Sad
+    - Very sad
+    - Unhappy
+    - Not good
+    - Extremly sad
+    - So sad
+
+- intent: bot_challenge
+  examples: |
+    - Are you a bot?
+    - Are you a human?
+    - Am I talking to a bot?
+    - Am I talking to a human?
+- intent: help
+  examples: |
+    - What can I help you?
+    - Please talk to me?
+    - Yeah you can talk to me
+    - I will help you for sure
+- intent: information
+  examples: |
+    - I need to get your information
+    - Now please talk to me some information about you
+    - First, I want to know about you 
+- intent: name
+  examples: |
+    - What's your name?
+    - What can I call you?
+    - Say your name to me please
+
+- intent: department
+  examples: |
+    - What's your department?
+    - What department do you work?
+-intent: leave_day_start
+  examples: |
+    - What day do you want to rest?
+    - What day will you take off work?
+
+-intent: leave_day_period
+  examples: |
+    - 
+
+
