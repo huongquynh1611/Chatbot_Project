@@ -28,3 +28,30 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+- story: leaveday path 1
+ steps: 
+ - intent: greet
+ - action: utter_greet
+ - intent: help
+ - action: utter_okay
+ - action: utter_help
+ - intent: leave_day
+ - action: utter_okay
+ - action: utter_get_information
+ - intent: affirm
+ - action: utter_name
+ - intent: name
+ - action: utter_department
+ - intent: department
+ - action: utter_happy
+ - action: utter_reason
+ - intent: reason_leaves_day
+ - action: utter_leave_start
+ - intent: start_leaves_day
+ - action: utter_leave_duration
+ - intent: duration_leaves_day
+ - action: utter_okay
+ - action: utter_more_action
+ - intent: deny
+ - action: utter_thank
+ - action: utter_goodbye
